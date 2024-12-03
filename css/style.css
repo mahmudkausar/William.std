@@ -1,0 +1,580 @@
+
+ /* ============= commmon css start ============== */
+ *{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    background: #F9FAFC;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.title h4{
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.title h2{
+    min-width: 560px;
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navbar part start ============== */
+nav{
+    margin-top: 50px;
+}
+nav .sidebyside{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+}
+nav .sidebyside .menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: end;
+    column-gap: 46px;
+}
+nav .sidebyside .menu ul{
+   display: contents;
+   
+}
+nav .sidebyside .menu ul li{
+    color: #838383;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+nav .sidebyside .menu ul li:hover{
+    color: #8671FC;
+}
+
+
+/* ============= navbar part end ============== */
+
+/* ============= banner part start ============== */
+#banner {
+    margin-top: 78px;
+    margin-bottom: 36px;
+}
+
+#banner .sidebyside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#banner .sidebyside .left h4{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#banner .sidebyside .left h4 strong{
+    color: #F05D7B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#banner .sidebyside .left h2{
+    color: #222;
+    font-family: Raleway;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; 
+    margin-top: 20px;
+}
+#banner .sidebyside .left p{
+    max-width: 471px;
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
+
+#banner .sidebyside .left .btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 35px;
+}
+
+#banner .sidebyside .left .hire{
+    background: #8671FC;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#banner .sidebyside .left .resume{
+    display: inline-block;
+    margin-top: 70px;
+    color: #8671FC;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#banner .sidebyside .left .resume i{
+    margin-left: 20px;
+}
+
+
+/* ============= banner part end ============== */
+
+/* ============= about part start ============== */
+#about{
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+}
+#about .sidebyside{
+    display: grid;
+    grid-template-columns: 560px 421px;
+    align-items: center;
+    column-gap: 90px;
+}
+#about .sidebyside .left{
+    width: 100%;
+    padding: 150px 0;
+}
+
+#about .sidebyside .left h4{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#about .sidebyside .left h2{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+
+#about .sidebyside .left p{
+    max-width: 501px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 70px;
+}
+#about .sidebyside .left .resume{
+    color: #FFF;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#about .sidebyside .right h2{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+#about .sidebyside .right p{
+    max-width: 421px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+#about .sidebyside .right a{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+/* ============= about part end ============== */
+
+/* ============= skill part start ============== */
+#skill{
+    margin-top: 150px;
+}
+#skill .sidebyside{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    margin-top: 70px;
+}
+#skill .sidebyside .item{
+    border: 1px solid #474747;
+    padding: 50px 50px 32px 50px;
+    transition: all linear .3s;
+}
+#skill .sidebyside .item h5{
+    color: #222;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0.5px;
+    transition: all linear .3s;
+}
+#skill .sidebyside .item p{
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    transition: all linear .3s;
+}
+#skill .sidebyside .item a{
+    color: #8671FC;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+#skill .sidebyside .item:hover{
+    background: #F05D7B;
+}
+#skill .sidebyside .item:hover h5{
+   color: #FFF;
+}
+#skill .sidebyside .item:hover p{
+   color: #FFF;
+}
+#skill .sidebyside .item:hover a{
+   color: #FFF;
+}
+
+/* ============= skill part end ============== */
+
+/* ============= protfolio part start ============== */
+#protfolio{
+    margin-top: 150px;
+}
+
+#protfolio .menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 40px;
+
+}
+#protfolio ul{
+    display: contents;
+    text-align: center;
+}
+#protfolio ul li a{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all linear .3s;
+}
+#protfolio .menu a:hover{
+    color: #8671FC;
+}
+
+
+#protfolio .sidebyside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 70px;
+
+}
+
+#protfolio .sidebyside .img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#protfolio .sidebyside .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ============= protfolio part end ============== */
+
+/* ============= testi part start ============== */
+#testi{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#testi .sidebyside{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 80px;
+}
+#testi .sidebyside .right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 155px;
+}
+#testi .sidebyside .left h4{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#testi .sidebyside .left h3{
+    max-width: 270px;
+    color: #222;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#testi .sidebyside .left p{
+    max-width: 311px;
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+#testi .sidebyside .left i{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border: 1px solid transparent;
+    margin-right: 30px;
+    margin-top: 100px;
+    transition: all linear .3s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#testi .sidebyside .left i:hover{
+    border: 1px solid #474747;
+    background: #8671FC;
+    color: #FFF;
+}
+#testi .sidebyside .right i{
+    font-size: 30px;
+    position: relative;
+    top: -23px;
+    left: 20px;
+}
+
+#testi .sidebyside .right p{
+    width: 280px;
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+#testi .sidebyside .right .bottom{
+    margin-top: 56px;
+}
+#testi .sidebyside .right .bottom strong{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+#testi .sidebyside .right .bottom p{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+}
+
+
+/* ============= testi part end ============== */
+
+/* ============= brand part start ============== */
+
+#brand .sidebyside{
+    display: grid;
+    grid-template-columns: repeat(5,162px);
+    justify-content: center;
+    column-gap: 33px;
+    margin-bottom: 100px;
+}
+
+
+/* ============= brand part end ============== */
+
+/* ============= footer part start ============== */
+footer{
+    background: url(../image/footer.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0  40px 0;
+}
+footer .title h4{
+    color: #fff;
+}
+footer .title h3{
+    width: 421px;
+    color: #fff;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin: 0 auto; 
+}
+
+footer .title a{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    background: #8671FC;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+footer .bar{
+    border-top: 1px solid #FFF;
+    opacity: 0.2;
+    margin-bottom: 44px;
+}
+footer .last{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer .last img{
+    margin-left: -280px;
+    margin-bottom: 30px;
+}
+footer .last span{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.2px;
+    
+}
+
+
+
+/* ============= footer part end ============== */
