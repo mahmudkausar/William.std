@@ -104,7 +104,7 @@ nav .sidebyside .menu ul li:hover{
     text-transform: uppercase;
 }
 
-#banner .sidebyside .left h4 strong{
+#banner .sidebyside .left h4 span{
     color: #F05D7B;
     font-family: Raleway;
     font-size: 18px;
@@ -114,7 +114,7 @@ nav .sidebyside .menu ul li:hover{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-#banner .sidebyside .left h2{
+#banner .sidebyside .left h1{
     color: #222;
     font-family: Raleway;
     font-size: 72px;
@@ -142,7 +142,7 @@ nav .sidebyside .menu ul li:hover{
     column-gap: 35px;
 }
 
-#banner .sidebyside .left .hire{
+#banner .sidebyside .left .one{
     background: #8671FC;
     display: inline-block;
     padding: 20px 50px;
@@ -158,7 +158,7 @@ nav .sidebyside .menu ul li:hover{
     text-transform: uppercase;
 }
 
-#banner .sidebyside .left .resume{
+#banner .sidebyside .left .two{
     display: inline-block;
     margin-top: 70px;
     color: #8671FC;
@@ -171,10 +171,9 @@ nav .sidebyside .menu ul li:hover{
     text-transform: uppercase;
 }
 
-#banner .sidebyside .left .resume i{
+#banner .sidebyside .left .two img{
     margin-left: 20px;
 }
-
 
 /* ============= banner part end ============== */
 
