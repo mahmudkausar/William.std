@@ -503,7 +503,7 @@ nav .sidebyside .menu ul li:hover{
 
 /* ============= footer part start ============== */
 footer{
-    background: url(../image/footer.png) no-repeat center;
+    background: url(../images/footer.png) no-repeat center;
     background-size: cover;
     padding: 100px 0  40px 0;
 }
@@ -567,7 +567,5 @@ footer .last span{
     letter-spacing: 0.2px;
     
 }
-
-
 
 /* ============= footer part end ============== */
