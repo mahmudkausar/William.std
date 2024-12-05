@@ -403,7 +403,6 @@ nav .sidebyside .menu ul li:hover{
 }
 #testi .sidebyside .left h4{
     color: #222;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -414,7 +413,6 @@ nav .sidebyside .menu ul li:hover{
 #testi .sidebyside .left h3{
     max-width: 270px;
     color: #222;
-    font-family: Raleway;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -426,7 +424,6 @@ nav .sidebyside .menu ul li:hover{
 #testi .sidebyside .left p{
     max-width: 311px;
     color: #838383;
-    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -461,7 +458,6 @@ nav .sidebyside .menu ul li:hover{
 #testi .sidebyside .right p{
     width: 280px;
     color: #838383;
-    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -473,7 +469,6 @@ nav .sidebyside .menu ul li:hover{
 }
 #testi .sidebyside .right .bottom strong{
     color: #222;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
